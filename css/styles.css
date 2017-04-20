@@ -1,0 +1,73 @@
+  body {
+  background-color: coral;
+  text-align: center;
+}
+
+  h1  {
+    font-style: oblique;
+    font-weight: bold;
+    text-align: center;
+  }
+
+  h2 {
+    font-family: inherit;
+    font-weight: 400;
+    text-align: center;
+  }
+
+  p {
+    font-style: normal;
+    font-weight: normal;
+  }
+
+ /*.columns {
+    float: left;
+    width: 500px;
+    font-weight: lighter;
+    font-size: 15pt;
+    color: blue;
+    padding: 20px;
+    text-align: center;
+ }*/
+
+/*
+ .columns {
+   float:left;
+   text-align: center;
+   margin: 5px;
+ }*/
+
+ .fred {
+
+ }
+
+ .columns p{
+   font-weight: bold;
+ }
+.fred {
+  margin: 12px;
+  border: 2px solid green;
+  padding: 4px;
+  background-color: orange;
+}
+
+ .clear {
+   clear: both;
+ }
+
+ img {
+   border-radius: 60%;
+   height: 200px;
+   width: 250px;
+   /*float:left;
+   display: block;*/
+}
+
+.list {
+  color: yellow;
+}
+
+a {
+  font-style: italic;
+
+}
