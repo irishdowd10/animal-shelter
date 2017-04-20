@@ -30,26 +30,41 @@
     text-align: center;
  }*/
 
-/*
+
  .columns {
    float:left;
    text-align: center;
    margin: 5px;
- }*/
+ }
 
  .fred {
+   margin: 12px;
+   border: 2px solid green;
+   padding: 4px;
+   background-color: orange;
+
+ }
+
+ .jamie {
+   margin: 12px;
+   border: 2px solid green;
+   padding: 4px;
+   background-color: orange;
+ }
+
+ .pat {
+   margin: 12px;
+   border: 2px solid green;
+   padding: 4px;
+   background-color: orange;
 
  }
 
  .columns p{
    font-weight: bold;
  }
-.fred {
-  margin: 12px;
-  border: 2px solid green;
-  padding: 4px;
-  background-color: orange;
-}
+
+
 
  .clear {
    clear: both;
@@ -71,3 +86,26 @@ a {
   font-style: italic;
 
 }
+ul {
+  list-style: none;
+}
+
+@media screen and (min-width: 768px) {
+  .column {
+    width: 300px;
+    float: left;
+    padding: 20px;
+  }
+}
+
+@media screen and (max-width: 768px) and (min-width: 600px) {
+  body {
+    background-color: black;
+    color: white;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  body {
+    background-color: teal;
+  }
